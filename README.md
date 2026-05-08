@@ -64,6 +64,24 @@ Claude will guide you through all 10 phases — from rubric analysis to winning 
 
 ---
 
+## 🔵 Built on Google
+
+The winning submission — and this methodology — was built entirely on the Google ecosystem. Every service below was used in production and scored by the judges.
+
+| Service | Role in the App | Why It Matters for Scoring |
+|---------|----------------|---------------------------|
+| **Gemini 2.5 Flash** | Core AI engine — generated structured JSON itineraries | Sponsor model = judges know it, integrations are stable |
+| **Vertex AI (ADC)** | Enterprise auth via Application Default Credentials | No API key in code, no quota limits, scores security points |
+| **Firebase Firestore** | 7-day TTL cache — SHA-256 hash of preferences as key | Instant demo responses, "⚡ Cached" badge visible to judges |
+| **Firebase Analytics** | `trip_planned` + `itinerary_viewed` event tracking | Platform service usage = direct rubric criterion |
+| **Google Maps Embed** | Per-day route map with all activity pins | No API key required — free iframe embed, zero setup |
+| **Google Calendar** | Pre-filled event deep-links for every activity and day | No OAuth — URL scheme only, works instantly in demo |
+| **Google Cloud Run** | Production deployment — asia-south1, 512Mi, 300s timeout | Sponsor cloud = direct rubric points, auto-scaling |
+
+> **The rule:** For a Google hackathon, use **all** available Google services — not just Gemini. Judges track service usage explicitly. Each integration is a line on the rubric.
+
+---
+
 ## 💡 What Is This?
 
 A **replicable playbook** for building and winning AI hackathons — specifically those judged on code quality, security, testing, accessibility, and platform service usage.
