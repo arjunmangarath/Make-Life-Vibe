@@ -10,6 +10,40 @@
 
 ---
 
+## 🚀 Install as a Claude Code Skill
+
+Works with [Claude Code](https://claude.ai/code) CLI — invoke it at any hackathon with `/Make-Life-Vibe`.
+
+**Mac / Linux:**
+```bash
+mkdir -p ~/.claude/skills/Make-Life-Vibe
+curl -o ~/.claude/skills/Make-Life-Vibe/SKILL.md \
+  https://raw.githubusercontent.com/arjunmangarath/Make-Life-Vibe/master/SKILL.md
+```
+
+**Windows (PowerShell):**
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills\Make-Life-Vibe"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/arjunmangarath/Make-Life-Vibe/master/SKILL.md" `
+  -OutFile "$env:USERPROFILE\.claude\skills\Make-Life-Vibe\SKILL.md"
+```
+
+**Or clone and copy manually:**
+```bash
+git clone https://github.com/arjunmangarath/Make-Life-Vibe
+cp Make-Life-Vibe/SKILL.md ~/.claude/skills/Make-Life-Vibe/SKILL.md
+```
+
+Once installed, open Claude Code in any project and run:
+
+```
+/Make-Life-Vibe
+```
+
+Claude will guide you through all 10 phases — from rubric analysis to winning pitch.
+
+---
+
 ## 💡 What Is This?
 
 A **replicable playbook** for building and winning AI hackathons — specifically those judged on code quality, security, testing, accessibility, and platform service usage.
