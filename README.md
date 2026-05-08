@@ -16,6 +16,7 @@
 [![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Gemini%20%7C%20Firebase-4285F4?style=flat-square&logo=google&logoColor=white)](./SKILL.md)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](./LICENSE)
 [![Stars](https://img.shields.io/github/stars/arjunmangarath/Make-Life-Vibe?style=flat-square&color=f59e0b)](https://github.com/arjunmangarath/Make-Life-Vibe/stargazers)
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/arjunmangarath)
 
 </div>
 
@@ -504,6 +505,16 @@ If you used this at a hackathon — won or not — drop a star. It helps other d
 [![Star this repo](https://img.shields.io/github/stars/arjunmangarath/Make-Life-Vibe?style=for-the-badge&color=f59e0b&label=Star%20this%20repo)](https://github.com/arjunmangarath/Make-Life-Vibe/stargazers)
 
 Share it with someone entering their first AI hackathon. The patterns here take 10 minutes to install and hours off your execution time.
+
+---
+
+## ☕ Support This Work
+
+This methodology is free and always will be. If it helped you ship faster, score higher, or win something — a coffee keeps the repo alive and more tools coming.
+
+[![Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/arjunmangarath)
+
+Built by [Arjun Mangarath](https://github.com/arjunmangarath) — software, embedded systems, machine development, 3D CAD, and AI. Winner of PromptWars Bengaluru 2026.
 
 ---
 
