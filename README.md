@@ -1,12 +1,32 @@
-# 🏆 Make-Life-Vibe
+# Make-Life-Vibe
 
-> **The complete hackathon execution methodology** — from problem statement to winning pitch.  
-> Battle-tested at PromptWars Bengaluru 2026. Score: 96.84% · Pitching Arena Winner.
+<div align="center">
+
+<img src="./trophy.jpeg" alt="Ultimate PromptWarrior Trophy — Winner of PromptWars, Build with AI, 8th May 2026" width="340" />
+
+**This trophy was won using exactly what's in this repo.**
+
+*PromptWars Bengaluru 2026 · Build with AI · Google for Developers*  
+*Score: 96.84% automated · Pitching Arena Winner · Ultimate PromptWarrior*
+
+---
 
 [![PromptWars](https://img.shields.io/badge/PromptWars%202026-Winner%20🏆-f59e0b?style=flat-square)](https://github.com/arjunmangarath/Make-Life-Vibe)
 [![Claude Skill](https://img.shields.io/badge/Claude%20Skill-Make--Life--Vibe-8B5CF6?style=flat-square)](./SKILL.md)
 [![Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20Gemini%20%7C%20Firebase-4285F4?style=flat-square&logo=google&logoColor=white)](./SKILL.md)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/arjunmangarath/Make-Life-Vibe?style=flat-square&color=f59e0b)](https://github.com/arjunmangarath/Make-Life-Vibe/stargazers)
+
+</div>
+
+---
+
+> **The complete hackathon execution methodology** — from problem statement to winning pitch.  
+> Not theory. Every pattern in this repo was extracted from a real winning submission, built under pressure in a single day.
+
+**If you've ever walked out of a hackathon feeling like you built something good but didn't win — this is why, and how to fix it.**
+
+Hackathons aren't judged by vibes. They're scored on rubrics. This methodology teaches you to read the rubric first, map every criterion to code, and build in that order. The result: a 96.84% automated score and a pitching trophy on the first attempt it was used.
 
 ---
 
@@ -448,11 +468,24 @@ export const logError = (msg: string, d?: Record<string, unknown>) => log("ERROR
 
 This methodology was used to build the **Travel Planning & Experience Engine** at PromptWars Bengaluru 2026:
 
-- **Automated score:** 96.84%
-- **Pitching Arena:** Winner
-- **Award:** Ultimate PromptWarrior
+- **Automated score:** 96.84% — top score in the event
+- **Pitching Arena:** Winner — out of all finalists
+- **Award:** Ultimate PromptWarrior (Google for Developers)
+- **Stack:** Next.js 15 · Gemini 2.5 Flash · Firebase · Cloud Run · 137 tests
 
-[→ View the winning project](https://github.com/arjunmangarath/promptwars-travel-engine)
+**This is not a methodology invented before the hackathon.** It was reverse-engineered from a live winning submission — every phase, time budget, and copy-paste snippet was extracted from code that already scored 96.84% under real pressure.
+
+[→ View the winning project source code](https://github.com/arjunmangarath/promptwars-travel-engine)
+
+---
+
+## ⭐ If This Helped You
+
+If you used this at a hackathon — won or not — drop a star. It helps other developers find this before their next event.
+
+[![Star this repo](https://img.shields.io/github/stars/arjunmangarath/Make-Life-Vibe?style=for-the-badge&color=f59e0b&label=Star%20this%20repo)](https://github.com/arjunmangarath/Make-Life-Vibe/stargazers)
+
+Share it with someone entering their first AI hackathon. The patterns here take 10 minutes to install and hours off your execution time.
 
 ---
 
